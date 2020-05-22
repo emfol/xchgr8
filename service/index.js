@@ -17,14 +17,14 @@ const PORT = 8001;
  * Initialization
  */
 
-const app = express();
 const logger = log.getLogger('xchgr8');
+const app = express();
+app.use(cors());
 
 /**
  * Endpoints
  */
 
-app.options('*', cors());
 app.get('/ping', (req, res) => res.json({message: 'pong'}));
 app.get('/api/convert/:value/:from/:to', api.convert);
 app.get('/api/currencies', api.currencies);

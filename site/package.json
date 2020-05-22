@@ -1,0 +1,28 @@
+{
+  "name": "xchgr8-site",
+  "version": "0.0.1",
+  "description": "The simplest site to interact with xchgr8 service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/emfol/xchgr8.git"
+  },
+  "keywords": [
+    "Exchange",
+    "Rate",
+    "Currency"
+  ],
+  "author": "Emanuel Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emfol/xchgr8/issues"
+  },
+  "homepage": "https://github.com/emfol/xchgr8#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

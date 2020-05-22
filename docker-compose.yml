@@ -1,0 +1,12 @@
+version: "3"
+services:
+
+  app:
+    build: ./service
+    ports:
+      - "8001:8001"
+
+  site:
+    build: ./site
+    ports:
+      - "8000:8000"

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EXCHGR8</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css" />
+</head>
+<body>
+  <main>
+    <h1>EXCHGR8</h1>
+    <form>
+      <div>
+        FROM: <select id="xchgr8_from"><option>Loading...</option></select>
+      </div>
+      <div>
+        TO: <select id="xchgr8_to"><option>Loading...</option></select>
+      </div>
+      <div>
+        VALUE: <input type="number" size="20" id="xchgr8_value" value="1" />
+      </div>
+      <div>
+        RESULT: <input type="text" size="20" id="xchgr8_result" disabled />
+      </div>
+      <div>
+        <button id="xchgr8_button" disabled>Convert</button>
+      </div>
+      <div>
+        HISTORY:
+        <div>
+          <textarea id="xchgr8_history" cols="45" rows="10" disabled></textarea>
+        </div>
+      </div>
+    </form>
+  </main>
+  <script type="text/javascript" src="script/main.js"></script>
+</body>
+</html>
