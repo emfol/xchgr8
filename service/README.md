@@ -5,7 +5,7 @@ A Simple Exchange Rate Service
 ## Tech
 
 ### Requirements:
-* Node.js: v12.16.0
+* Node.js: v12.16.x
 
 ### Running the Project
 ```sh
