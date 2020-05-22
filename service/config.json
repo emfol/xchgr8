@@ -1,0 +1,37 @@
+{
+  "services": {
+    "openexchangerates": {
+      "baseURL": "https://openexchangerates.org/api",
+      "options": {
+        "params": {
+          "app_id": "2ab2cad6b70a4dbf9158dec47c6bf90c",
+          "prettyprint": false
+        }
+      }
+    }
+  },
+  "cache": {
+    "dir": ".cache",
+    "ttl": 300000
+  },
+  "log4js": {
+    "appenders": {
+      "stdout": {
+        "type": "stdout"
+      },
+      "server": {
+        "type": "file",
+        "filename": "./xchgr8.log"
+      }
+    },
+    "categories": {
+      "default": {
+        "appenders": [
+          "stdout",
+          "server"
+        ],
+        "level": "info"
+      }
+    }
+  }
+}

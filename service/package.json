@@ -1,0 +1,35 @@
+{
+  "name": "xchgr8",
+  "version": "0.0.1",
+  "description": "A Simple Exchange Rate Service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emfol/xchgr8.git"
+  },
+  "keywords": [
+    "Exchange",
+    "Rate"
+  ],
+  "author": "Emanuel Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emfol/xchgr8/issues"
+  },
+  "homepage": "https://github.com/emfol/xchgr8#readme",
+  "dependencies": {
+    "axios": "0.19.x",
+    "cors": "2.8.x",
+    "express": "4.17.x",
+    "log4js": "6.2.x"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "eslint-config-google": "^0.14.0",
+    "jest": "^26.0.1"
+  }
+}
