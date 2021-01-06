@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/emfol/xchgr8#readme",
   "dependencies": {
-    "axios": "0.19.x",
+    "axios": "0.21.x",
     "cors": "2.8.x",
     "express": "4.17.x",
     "log4js": "6.2.x"
